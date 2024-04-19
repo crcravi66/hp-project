@@ -1,0 +1,97 @@
+.hp-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 5px;
+}
+
+.head-logo {
+  width: 6rem;
+  height: 3rem;
+  margin-left: 5px;
+}
+
+/* hr{
+    color: black;
+} */
+hr {
+  display: block;
+  height: 3px;
+  border: 0;
+  border-top: 1px solid #585757;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.drupa-logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.button-radius {
+  border-radius: 0 3rem 3rem 0;
+  position: relative;
+  font-weight: 600;
+  padding: 0 30px 0 10px;
+  font-size: 1rem;
+  border: none;
+  letter-spacing: 1px;
+  bottom: -1rem;
+}
+
+.click-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 3px;
+  position: absolute;
+  bottom: -2px;
+  right: 1px;
+}
+
+.leftimg, .rightimg {
+  width: 15rem;
+  height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 90%;
+     object-position: 50% 90%;
+  top: 2.5rem;
+  border: 1rem solid white;
+}
+
+.leftimg {
+  left: 25%;
+}
+
+.rightimg {
+  right: 25%;
+}
+
+.centerimg {
+  width: 15rem;
+  height: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 60% 100%;
+     object-position: 60% 100%;
+  border: 1rem solid white;
+  z-index: 1;
+}
+
+.main-container {
+  margin-top: 23rem;
+  color: white;
+  padding-top: 8rem;
+}
+
+#printer-img {
+  width: 100%;
+}
+
+.print-price {
+  font-size: 6rem;
+}
+
+.digital {
+  font-size: 0.78rem;
+}
+/*# sourceMappingURL=maps/app.css.map */

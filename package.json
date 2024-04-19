@@ -1,0 +1,62 @@
+{
+  "name": "crcravi66",
+  "title": "HP HTML/CSS test project",
+  "author": "crcravi66",
+  "url": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "prebuild": "cross-env NODE_ENV=production gulp clean",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "deploy:github": "npm run build && git add . && git commit -m \"Added fresh build dist folder\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crcravi66/hp-project"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.0",
+    "browser-sync": "^2.29.3",
+    "cross-env": "^7.0.3",
+    "del": "^7.0.0",
+    "fancy-log": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-displaylog": "^1.0.3",
+    "gulp-filter": "^7.0.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-if": "^3.0.0",
+    "gulp-ignore": "^3.0.0",
+    "gulp-image": "^6.2.1",
+    "gulp-less": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-logger": "^0.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-preprocess": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.0",
+    "husky": "^8.0.0",
+    "sass": "^1.63.4",
+    "through2": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
