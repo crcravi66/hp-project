@@ -26,7 +26,7 @@ const devBuild = (process.env.NODE_ENV || 'development').trim().toLowerCase()
   === 'development'
 const prodBuild = process.env.NODE_ENV === 'production'
 const source = 'src/'
-const destination = devBuild ? 'app/' : 'dist/'
+const destination = devBuild ? 'docs/' : 'dist/'
 const css = {
   in: {
     css: [`${source}styles/**/*.css`],
@@ -195,7 +195,7 @@ task('js', () => {
 task('browser-sync', () => {
   browserSync.init(null, {
     server: {
-      baseDir: 'app',
+      baseDir: 'docs',
       https: true,
     },
     open: false,
