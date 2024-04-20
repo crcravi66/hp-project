@@ -209,6 +209,8 @@ task(
   'watch',
   parallel('browser-sync', () => {
     // watch(['src/styles/**/*.scss', 'src/styles/**/*.less', 'src/styles/**/*.css'])
+    watch(images.in)
+      .on('change', series('images', reload))
     watch(['src/styles/**/*.(css)'])
       .on('change', series('styles:css'))
     watch(['src/styles/**/*.(scss|sass)'])
