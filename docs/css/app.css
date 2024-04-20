@@ -1,6 +1,6 @@
 body {
   background: rgb(27, 165, 193);
-  background: linear-gradient(125deg, rgba(27, 165, 193, 0) 0%, rgb(52, 207, 93) 100%);
+  background-image: linear-gradient(to left bottom, #d7fca7, #eceeba, #f1fdcf, #faf9cc, #ebecc3, #f0f8cd, #e4f5ca, #eaeac2, #d5faca, #eae9ba, #ebe9b6, #c7f5a9);
   height: 100%;
 }
 
@@ -54,8 +54,8 @@ hr {
   width: 80%;
   max-width: 250px;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .click-icon {
@@ -73,9 +73,9 @@ hr {
   width: 11rem;
   height: 16rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 50% 90%;
-     object-position: 50% 90%;
+  object-position: 50% 90%;
   top: 2.5rem;
   border: 0.3rem solid white;
 }
@@ -92,9 +92,9 @@ hr {
   width: 14rem;
   height: 21rem;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 60% 100%;
-     object-position: 60% 100%;
+  object-position: 60% 100%;
   border: 0.3rem solid white;
   z-index: 1;
 }
@@ -197,74 +197,90 @@ hr {
 
 /* mobile display  */
 @media only screen and (min-width: 560px) {
+
   /* header selection */
   .hp-logo {
     width: 2.5rem;
     height: 2.5rem;
     margin-right: 5px;
   }
+
   .head-logo {
     width: 7.5rem;
     height: 3rem;
     margin-left: 5px;
   }
+
   /* .drupa-container */
   .drupa-logo {
     width: 8.1rem;
     height: 8.1rem;
     margin: 0;
   }
+
   .button-radius {
     /* font-size: 1rem; */
     padding: 0 30px 3px 10px;
     bottom: -1rem;
     left: 24px;
     -webkit-transform: unset;
-        -ms-transform: unset;
-            transform: unset;
+    -ms-transform: unset;
+    transform: unset;
   }
+
   /* printer-section */
   .hp-header {
     font-size: 1.5rem;
     font-weight: 700;
   }
+
   .digital {
     font-size: 1rem;
   }
+
   .print-price {
     font-size: 6.5rem;
   }
+
   .printer-about {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 28px;
   }
+
   /* .info-section */
   .info-para {
     font-size: 1.5rem;
   }
+
   .bg-gradien {
     font-size: 1.5rem;
   }
+
   /* footer-section */
   .footer-logo {
     width: 110px;
   }
+
   .footer-section {
     background-color: rgb(214, 228, 196);
     border-top: 3px solid rgb(9, 98, 9);
   }
+
   .footer-30-logo {
     width: 130px;
     height: 90px;
   }
 }
+
 /* tab display */
 @media only screen and (min-width: 768px) {
+
   /* headder section */
   .header-para {
     font-size: 1.6rem;
   }
+
   /* main images section  */
   .leftimg,
   .rightimg {
@@ -273,74 +289,92 @@ hr {
     top: 2.5rem;
     border: 0.5rem solid white;
   }
+
   .leftimg {
     left: 10%;
   }
+
   .rightimg {
     right: 10%;
   }
+
   .centerimg {
     width: 13rem;
     height: 22rem;
     border: 0.5rem solid white;
   }
+
   /* .drupa-container */
   .button-radius {
     left: 48px;
   }
+
   .main-container {
     margin-top: 13rem;
   }
+
   .footer-section ul li {
     font-size: 1.3rem;
   }
 }
+
 /* mini laptop display */
 @media only screen and (min-width: 992px) {
+
   /* headersection */
   .hp-logo {
     width: 3.9rem;
     height: 3.5rem;
     margin-right: 5px;
   }
+
   .head-logo {
     width: 9.8rem;
     height: 5rem;
     margin-left: 5px;
   }
+
   /* .drupa-container   */
   .drupa-container {
     padding: 0 3rem;
   }
+
   .drupa-container h1 {
     font-size: 2.7rem;
     letter-spacing: 0.3rem;
   }
+
   .leftimg,
   .rightimg {
     width: 13rem;
     height: 20rem;
     top: 2.5rem;
   }
+
   .leftimg {
     left: 18%;
   }
+
   .rightimg {
     right: 18%;
   }
+
   .centerimg {
     width: 15rem;
     height: 25rem;
   }
+
   .main-container {
     margin-top: 18rem;
   }
 }
+
 /* laptop and system display */
 @media only screen and (min-width: 1200px) {
   .container-content.container-expand {
     max-width: 1140px;
   }
+
   .leftimg,
   .rightimg {
     width: 14rem;
@@ -348,29 +382,36 @@ hr {
     top: 2.5rem;
     border: 0.5rem solid white;
   }
+
   .leftimg {
     left: 20%;
   }
+
   .rightimg {
     right: 21%;
   }
+
   .centerimg {
     width: 16rem;
     height: 28rem;
     border: 0.5rem solid white;
   }
+
   .main-container {
     margin-top: 20rem;
   }
+
   .footer-section ul li {
     font-size: 1.4rem;
   }
 }
+
 /* big screen dispaly */
 @media screen and (min-width: 1400px) {
   .container-content.container-expand {
     max-width: 1320px;
   }
+
   .leftimg,
   .rightimg {
     width: 15rem;
@@ -378,23 +419,29 @@ hr {
     top: 2.5rem;
     border: 0.5rem solid white;
   }
+
   .leftimg {
     left: 21%;
   }
+
   .rightimg {
     right: 21%;
   }
+
   .centerimg {
     width: 17rem;
     height: 27rem;
     border: 0.5rem solid white;
   }
+
   .footer-logo {
     width: 110px;
   }
+
   .footer-30-logo {
     width: 120px;
     height: 80px;
   }
 }
+
 /*# sourceMappingURL=maps/app.css.map */
